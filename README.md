@@ -6,7 +6,7 @@ Static academic portfolio hosted with GitHub Pages.
 - `research.html`: research and selected publications.
 - `systems.html`: product projects and industry experience.
 - `teaching.html`: teaching and mentorship.
-- `styles.css`: shared responsive styles.
+- `styles.e4d7bb5192.css`: shared responsive styles, versioned to prevent stale browser caches.
 - `portrait.png`: supplied speaking photograph, used without image alteration.
 - `cv.pdf` and `resume.pdf`: existing documents; update separately when revised.
 
