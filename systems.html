@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="AI applications built by Sandeep Kalari with clinical, community, and industry collaborators.">
+<meta name="theme-color" content="#ffffff">
+<title>Systems & Experience · Sandeep Kalari</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="index.html">Sandeep Kalari</a><nav aria-label="Main navigation"><a href="index.html">About</a><a href="research.html">Research</a><a href="systems.html" aria-current="page">Systems</a><a href="teaching.html">Teaching</a><a href="cv.pdf">CV</a></nav></header>
+<main id="main">
+<div class="page-heading"><h1>Systems &amp; experience</h1><p>Applications built around clinical, community, and business requirements.</p></div>
+<article class="system" id="carecontext"><div class="section-title"><h2>CareContext</h2><span class="label">In development</span></div><p>Patient education developed with EVMS physicians. I translated clinical requirements into the application, connecting encounter summaries, longitudinal patient context, medical references, and teach-back questions.</p><div class="inline-links"><a href="https://github.com/Sandeep945-pixel/Carecontext-Demo">Architecture &amp; project documentation</a></div><details><summary>Architecture &amp; development status</summary><p>A FastAPI backend combines a patient context graph, PostgreSQL storage, and retrieval with Gemini on Google Cloud. The public repository explains the system; the application source is private.</p><p>The hosted demonstration is paused. Clinical validation is pending.</p></details></article>
+<article class="system" id="floodsafe"><div class="section-title"><h2>FloodSafe Norfolk</h2><span class="label">Research prototype</span></div><p>A mobile flood-information companion informed by focus-group requirements at ODU's Institute for Coastal Adaptation and Resilience. It considers residents' mobility, transportation, communication, and caregiving needs.</p><div class="inline-links"><a href="https://github.com/Sandeep945-pixel/FloodSafe-Norfolk-Demo">Architecture &amp; project documentation</a></div><details><summary>Architecture &amp; development status</summary><p>React Native and Expo provide the mobile interface, with a FastAPI backend, rules-first responses, and Gemini on Vertex AI. NOAA and NWS integrations support the flood-information workflow.</p><p>Current demonstrations use scenarios. A public live demo is not yet available.</p></details></article>
+<article class="system" id="clearcore"><p class="label">TechAbstractor LLC · Summer 2025</p><h2>AI Solutions Engineer Intern</h2><h3 class="subheading">ClearCore · Virtual CFO</h3><p>During an eight-week internship, I built the base application from scratch and handed it over to the company. It connects financial-document processing, transaction categorization, retrieval-based answers, and visual reporting.</p><div class="inline-links"><a href="https://github.com/Sandeep945-pixel/ClearCore">Engineering case study</a></div><details><summary>AWS architecture &amp; implementation</summary><dl class="architecture"><div><dt>Application</dt><dd>EC2 hosting with frontend, backend, and authentication integration.</dd></div><div><dt>Documents &amp; retrieval</dt><dd>S3 storage and OpenSearch retrieval of relevant document chunks.</dd></div><div><dt>Language models</dt><dd>Claude through Amazon Bedrock for document-grounded answers.</dd></div><div><dt>Reporting</dt><dd>QuickSight for financial visualizations.</dd></div></dl><p class="note">This documents the internship handoff version. TechAbstractor owns the product and subsequent development.</p></details></article>
+</main>
+<footer><span>Sandeep Kalari · Old Dominion University</span><a href="mailto:skala003@odu.edu">skala003@odu.edu</a></footer>
+</body>
+</html>

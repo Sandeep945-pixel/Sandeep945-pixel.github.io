@@ -1,72 +1,35 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Sandeep Kalari is a Computer Science PhD candidate at Old Dominion University working on context-aware AI, privacy, multimodal learning, and human-centered applications.">
-  <meta name="theme-color" content="#142c48">
-  <title>Sandeep Kalari · AI Research & Engineering</title>
-  <link rel="icon" href="favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="styles.css">
-  <script src="site.js" defer></script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Sandeep Kalari, Computer Science PhD candidate at Old Dominion University. Research in context-aware AI, privacy, and multimodal learning.">
+<meta name="theme-color" content="#ffffff">
+<title>Sandeep Kalari</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="wordmark" href="#home" aria-label="Sandeep Kalari, home"><span class="monogram" aria-hidden="true">SK</span><span>Sandeep Kalari</span></a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" hidden>Menu</button>
-      <nav id="main-nav" aria-label="Main navigation">
-        <a href="#work">Work</a><a href="#publications">Publications</a><a href="#teaching">Teaching</a><a href="#contact">Contact</a><a class="nav-cv" href="cv.pdf">CV <span class="file-type">PDF</span></a>
-      </nav>
-    </div>
-  </header>
-  <main id="main">
-    <section id="home" class="hero container" aria-labelledby="name">
-      <div class="hero-copy">
-        <p class="eyebrow">Computer Science · Old Dominion University</p>
-        <h1 id="name">Sandeep<br>Kalari<span class="period">.</span></h1>
-        <p class="role">AI researcher, engineer &amp; PhD candidate.</p>
-        <p class="intro">I study how AI interprets information in context—and build systems that help people understand, question, and use that information.</p>
-        <p class="hero-detail">My work spans social-media privacy, multimodal learning, and applications developed around clinical and community needs.</p>
-        <div class="hero-links"><a class="button primary" href="#work">Explore my work</a><a class="text-link" href="mailto:skala003@odu.edu">Get in touch</a></div>
-      </div>
-      <figure class="portrait">
-        <div class="portrait-frame"><img src="profile.jpeg" width="960" height="1056" alt="Sandeep Kalari" fetchpriority="high"></div>
-        <figcaption><span>Based in Norfolk, Virginia</span><span>Research / Systems / Teaching</span></figcaption>
-      </figure>
-    </section>
-    <div class="focus-strip"><div class="container"><span>Context-aware AI</span><span>Privacy &amp; responsible AI</span><span>Multimodal learning</span><span>Applied AI systems</span></div></div>
-
-    <section id="work" class="section container" aria-labelledby="work-heading">
-      <div class="section-heading"><div><p class="eyebrow">01 / Selected work</p><h2 id="work-heading">Research made concrete.</h2></div><p>From understanding what a post reveals to carrying a patient's context across visits.</p></div>
-      <div class="project-grid">
-        <article class="project featured"><div class="project-top"><span class="project-kind">Privacy · Human–AI interaction</span><span class="venue">UIST 2026</span></div><h3>CLOAK</h3><p class="project-deck">What could your next post reveal?</p><p>A privacy-awareness assistant that examines a draft alongside posting history, explains revealing combinations of details, and suggests edits for the author to review.</p><p class="technical">Multi-agent analysis · Context across posts · User-controlled editing</p><div class="project-links"><a href="https://github.com/Sandeep945-pixel/CLOAK">Project &amp; code</a><a href="https://doi.org/10.1145/3830398.3830723">Paper</a></div></article>
-        <article class="project"><div class="project-top"><span class="project-kind">Multimodal learning · Explainability</span><span class="venue">CBMI 2025</span></div><h3>ReViewQwen</h3><p class="project-deck">Compare the claim with the evidence.</p><p>A vision-language model that compares seller descriptions and images with buyer reviews and photos, distinguishing discrepancies from agreement and out-of-scope expectations.</p><p class="technical">Qwen2-VL · LoRA adaptation · Multimodal comparison</p><div class="project-links"><a href="https://github.com/Sandeep945-pixel/ReViewQwen">Project &amp; code</a><a href="https://doi.org/10.1109/CBMI66578.2025.11339346">Paper</a><a href="https://huggingface.co/domsoos/reviewqwen-large">Model adapter</a></div></article>
-        <article class="project"><div class="project-top"><span class="project-kind">Healthcare · Product engineering</span><span class="status">In development</span></div><h3>CareContext</h3><p class="project-deck">Patient education with continuity.</p><p>An AI application developed with EVMS physicians to connect encounter summaries, longitudinal patient context, retrieved medical references, and teach-back questions.</p><p class="technical">FastAPI · Patient context graph · PostgreSQL · Google Cloud</p><div class="project-links"><a href="https://github.com/Sandeep945-pixel/Carecontext-Demo">Product &amp; architecture</a></div><p class="availability">Hosted demo paused; clinical validation pending.</p></article>
-        <article class="project"><div class="project-top"><span class="project-kind">Community needs · Accessible interaction</span><span class="status">Research prototype</span></div><h3>FloodSafe Norfolk</h3><p class="project-deck">Flood information shaped around people.</p><p>A mobile companion informed by focus-group requirements, connecting flood conditions with residents' mobility, transportation, communication, and caregiving needs.</p><p class="technical">React Native · FastAPI · NOAA / NWS integration · Rules-first responses</p><div class="project-links"><a href="https://github.com/Sandeep945-pixel/FloodSafe-Norfolk-Demo">Product &amp; architecture</a></div><p class="availability">Scenario demonstrations; public demo pending.</p></article>
-      </div>
-      <div class="supporting-work">
-        <article><span class="small-label">Privacy &amp; feedback</span><h3>PrivAware &amp; PrivAgent-RL</h3><p>Layered access controls for language-model applications, extended with policy-aware evaluation and reinforcement learning.</p><a class="text-link" href="https://github.com/Sandeep945-pixel/PrivAware">Explore the research</a></article>
-        <article><span class="small-label">Multimodal prompting</span><h3>AeroAssist</h3><p>Guided Reflective Diagnostic Reasoning: a structured prompt for comparing inspection video, audio, and sensor logs.</p><a class="text-link" href="https://github.com/Sandeep945-pixel/AeroAssist">Explore the research</a></article>
-      </div>
-    </section>
-
-    <section class="experience-band" aria-labelledby="experience-heading"><div class="container experience-layout"><div><p class="eyebrow">Industry experience / Summer 2025</p><h2 id="experience-heading">From requirements<br>to a cloud application.</h2><p class="company">AI Solutions Engineer Intern<br><strong>TechAbstractor LLC</strong></p></div><div><h3>ClearCore · Virtual CFO</h3><p>During an eight-week internship, I built the base application from scratch and handed it over to the company. The work connected financial-document processing, transaction categorization, retrieval-based answers, and visual reporting.</p><p class="cloud-detail">EC2 hosting, S3 storage, OpenSearch retrieval, Claude through Bedrock, and QuickSight reporting—with frontend, backend, and authentication integration.</p><a class="button light" href="https://github.com/Sandeep945-pixel/ClearCore">Read the engineering case study</a><p class="ownership">The repository documents the internship version. TechAbstractor owns the product and subsequent development.</p></div></div></section>
-
-    <section id="publications" class="section container" aria-labelledby="pub-heading"><div class="section-heading"><div><p class="eyebrow">02 / Research</p><h2 id="pub-heading">Selected publications.</h2></div><p>Privacy, evidence, and context in human-facing AI.</p></div>
-      <ol class="publication-list">
-        <li><div class="publication-venue"><strong>UIST</strong><span>2026</span></div><div><h3><a href="https://doi.org/10.1145/3830398.3830723">CLOAK: A Privacy-Preserving Assistant for Online Social Media Users</a></h3><p><strong>Sandeep Kalari</strong>, Mohan Sunkara, Vikas Ashok, Ravi Mukkamala</p><a class="text-link" href="https://github.com/Sandeep945-pixel/CLOAK">Code &amp; paper</a></div></li>
-        <li><div class="publication-venue"><strong>CBMI</strong><span>2025</span></div><div><h3><a href="https://doi.org/10.1109/CBMI66578.2025.11339346">ReViewQwen: An Explainable Vision-Language Model for Discrepancy Detection in Multimodal E-Commerce Reviews</a></h3><p><strong>Sandeep Kalari</strong>, Mohan Krishna Sunkara, Dominik Soós, Vikas Ashok, Ravi Mukkamala</p><a class="text-link" href="https://github.com/Sandeep945-pixel/ReViewQwen">Code &amp; model</a></div></li>
-        <li><div class="publication-venue"><strong>IEEE Aerospace</strong><span>2026</span></div><div><h3><a href="https://github.com/Sandeep945-pixel/AeroAssist">AeroAssist: A Prompt-Driven Multimodal AI Framework for Aircraft Maintenance</a></h3><p><strong>Sandeep Kalari</strong>, Abhinav Panchumarthi, Vikas Ashok, Ravi Mukkamala</p><a class="text-link" href="https://github.com/Sandeep945-pixel/AeroAssist">Method &amp; code</a></div></li>
-      </ol>
-      <div class="research-note"><span class="small-label">Current doctoral research</span><h3>Context-aware similarity in online communities</h3><p>I study what it means for two comments to be similar when their meaning depends on the community, post, and surrounding discussion. This work connects contextual representations with how similarities and differences are compared.</p></div>
-    </section>
-
-    <section id="teaching" class="teaching-section" aria-labelledby="teaching-heading"><div class="container teaching-layout"><div><p class="eyebrow">03 / Teaching &amp; mentoring</p><h2 id="teaching-heading">Make the idea<br>understandable.</h2><p class="teaching-intro">I use examples, visual explanations, and hands-on work to help students connect an abstract concept with something they can reason about and build.</p></div><div class="teaching-items"><article><h3>Computer science teaching</h3><p>Teaching assistant at Old Dominion University since Spring 2023, supporting lectures, labs, office hours, grading, and feedback. My teaching includes introductory Java programming.</p></article><article><h3>Generative AI guest lecture</h3><p>Guest lecture for CS 495/595, MLOps for Generative AI, covering RNNs, LSTMs, attention, and transformers with interactive Colab notebooks.</p></article><article><h3>Research mentorship</h3><p>Guiding student researchers through literature review, problem formulation, implementation, and communicating findings, including flood-risk research at ODU's Institute for Coastal Adaptation and Resilience.</p></article></div></div></section>
-
-    <section id="contact" class="section container contact-section" aria-labelledby="contact-heading"><div><p class="eyebrow">04 / Contact</p><h2 id="contact-heading">Let's talk about the work.</h2><p>I welcome conversations about research collaborations, applied AI roles, postdoctoral opportunities, and teaching.</p><a class="email-link" href="mailto:skala003@odu.edu">skala003@odu.edu</a></div><div class="contact-links"><a href="https://github.com/Sandeep945-pixel">GitHub</a><a href="https://www.linkedin.com/in/sandeep-kalari">LinkedIn</a><a href="cv.pdf">Curriculum vitae <span>PDF</span></a><a href="resume.pdf">Resume <span>PDF</span></a></div></section>
-  </main>
-  <footer><div class="container footer-inner"><span>© 2026 Sandeep Kalari</span><span>Old Dominion University · Norfolk, Virginia</span><a href="#home">Back to top</a></div></footer>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header"><a class="wordmark" href="index.html">Sandeep Kalari</a><nav aria-label="Main navigation"><a href="index.html" aria-current="page">About</a><a href="research.html">Research</a><a href="systems.html">Systems</a><a href="teaching.html">Teaching</a><a href="cv.pdf">CV</a></nav></header>
+<main id="main">
+<section class="bio" aria-labelledby="name">
+<div><h1 id="name">Sandeep Kalari</h1><p class="subtitle">PhD candidate in Computer Science<br>Old Dominion University</p>
+<p>I study how context changes the meaning and similarity of online comments. My research also examines privacy risks in social media and how language models compare evidence across text and images.</p>
+<p>I build AI applications with clinical and community collaborators, including patient education with EVMS physicians and flood-risk communication in Norfolk.</p>
+<div class="inline-links"><a href="mailto:skala003@odu.edu">Email</a><a href="https://github.com/Sandeep945-pixel">GitHub</a><a href="https://www.linkedin.com/in/sandeep-kalari">LinkedIn</a><a href="cv.pdf">CV</a><a href="resume.pdf">Résumé</a></div></div>
+<img class="portrait" src="portrait.png" width="400" height="400" alt="Sandeep Kalari speaking at a lectern">
+</section>
+<section aria-labelledby="selected-heading"><div class="section-title"><h2 id="selected-heading">Selected research</h2><a href="research.html">Research &amp; publications →</a></div>
+<ul class="work-list">
+<li><span class="label">UIST 2026</span><div><h3><a href="research.html#cloak">CLOAK</a></h3><p>Privacy risks that emerge across a person's social-media posts.</p></div><a class="row-link" href="https://github.com/Sandeep945-pixel/CLOAK" aria-label="CLOAK code">Code</a></li>
+<li><span class="label">CBMI 2025</span><div><h3><a href="research.html#reviewqwen">ReViewQwen</a></h3><p>Comparing seller claims with buyer reviews and photographs.</p></div><a class="row-link" href="https://github.com/Sandeep945-pixel/ReViewQwen" aria-label="ReViewQwen code">Code</a></li>
+<li><span class="label">Aerospace 2026</span><div><h3><a href="research.html#aeroassist">AeroAssist</a></h3><p>Structured multimodal prompting for aircraft inspection.</p></div><a class="row-link" href="https://github.com/Sandeep945-pixel/AeroAssist" aria-label="AeroAssist code">Code</a></li>
+</ul></section>
+<section aria-labelledby="systems-heading"><div class="section-title"><h2 id="systems-heading">Systems &amp; experience</h2><a href="systems.html">Details →</a></div>
+<div class="compact-grid"><div><h3><a href="systems.html#carecontext">CareContext</a></h3><p>Patient education with longitudinal clinical context.</p></div><div><h3><a href="systems.html#floodsafe">FloodSafe Norfolk</a></h3><p>Flood information shaped by residents' needs.</p></div></div>
+<p class="experience-line"><strong>TechAbstractor · Summer 2025.</strong> Built a financial AI application during an eight-week internship. <a href="systems.html#clearcore">Engineering details →</a></p></section>
+</main>
+<footer><span>Sandeep Kalari · Old Dominion University</span><a href="mailto:skala003@odu.edu">skala003@odu.edu</a></footer>
 </body>
 </html>
